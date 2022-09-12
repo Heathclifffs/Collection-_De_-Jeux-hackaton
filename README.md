@@ -1,5 +1,5 @@
 Collection de jeux et d'applications pour enfants
- 		-----IMPORTANT: Launch Collection _De_ Jeux#hackaton/Game_Colection/Hackaton1-Index.html
+ 		-----IMPORTANT: Launch Collection _De_ Jeux#hackaton/Game_Colection/Hackaton1-Index.html-------------------
 Notre site propose actuellement trois jeux pour enfants mais aussi pour adultes bien sûr.
 Notre objectif est de promouvoir l'éducation par le jeu. Très interactif, le site est bien
  en couleur et n'irrite pas les yeux. les jeux ont des bandes sonores amusantes et Rigoloes
