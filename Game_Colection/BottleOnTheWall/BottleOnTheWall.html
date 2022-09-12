@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="Styles.css">
+    <title>BottleOnTheWall Le Jeu</title>
+  </head>
+  <body onload="init()">
+ 	<div id=scoreBar>
+		<p>BottleOnTheWall Le jeu</p>
+		<div class="board">
+			<label id="try"></label><label id="stage"></label>
+		</div>
+	</div>
+	<div id=content>
+		<div id=sidebar>
+			<h1>Histoire</h1>
+			<img src="Harold.jpg" width="100px" height="100px">
+			<p>Le roi des ombres Harold a kidnappé la princesse du royaume et ne la rendra qu'à celui qui réussira son défi... Voulez-vous ?</p>
+		</div>
+		<div id="gameCenter">
+			<div id="displayImg">
+				<button id=s onclick="start(event)">Essayez de sauver la princesse<br>Démarrez le jeu maintenant ?</button>
+			</div>
+			<div id="displayFigure">
+				<div id="answer">
+					<input type="text" name="answer" placeholder="input your answer"></input><br>
+					<button id=validate> valider</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<p>Tous droits réservés à l'équipe : BK-team</p>
+		<button id=song onclick="songs()">cliquez pour désactiver le son</button>	
+		<!--<audio autoplay loop>
+			<source src="Welcome.mp3" type="audio/mpeg">
+		</audio>-->
+	</footer>
+  </body>
+	<script type="text/javascript" src="Script.js"></script>
+</html>

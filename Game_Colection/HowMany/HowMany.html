@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="Styles.css">
+    <title>How Many </title>
+  </head>
+  <body onload="init()">
+	<div id=scoreBar>
+		<p>HowMany Le Jeu</p>
+		<div class="board">
+			<label id="try"></label><label id="stage"></label>
+		</div>
+	</div>
+	<div id=content>
+		<div id=sidebar>
+			<h1>Histoire</h1>
+			<img src="Harold.jpg" width="100px" height="100px">
+			<p>le méchant roi des ombres Harold a volé tout les chiffres du royaume. Votre mission, jeune héros, est de les reprendre, serez-vous capable de?</p>
+		</div>
+		<div id="gameCenter">
+			<div id="displayImg">
+				<button id=s onclick="start(event)">Essayez de sauver le royaume<br>Démarrez le jeu maintenant ?</button>
+			</div>
+			<div id="displayFigure">
+				<div id="1" class="figure" onclick="values(event)">
+					<p>1</p>
+				</div><div id="2" class="figure" onclick="values(event)">
+					<p>2</p>
+				</div><div id="3" class="figure" onclick="values(event)">
+					<p>3</p>
+				</div><div id="4" class="figure" onclick="values(event)">
+					<p>4</p>
+				</div><div id="5" class="figure" onclick="values(event)">
+					<p>5</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<p>Tous droits réservés à l'équipe : BK-team</p>
+		<button id=song onclick="songs()">cliquez pour désactiver le son</button>
+		<!--<audio autoplay loop>
+			<source src="Welcome.mp3" type="audio/mpeg">
+		</audio>-->
+	</footer>
+  </body>
+	<script type="text/javascript" src="Script.js"></script>
+</html>
